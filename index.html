@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixabay Gallery</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-B6Fq-XDb.js">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DkczhqSJ.css">
+  <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-By4KHy1X.css">
+</head>
+<body>
+<form autocomplete="off">
+  <input
+    type="text"
+    name="search"
+    placeholder="Search images..."
+    required
+    autofocus
+  />
+  <button type="submit">Search</button>
+</form>
+
+<ul class="gallery"></ul>
+
+<button class="load-more" style="display: none;">Load more</button>
+<p class="end-message" style="display: none; color: #e74c3c;">
+  We're sorry, but you've reached the end of search results.
+</p>
+
+<!-- Головний JS-модуль -->
+</body>
+</html>
