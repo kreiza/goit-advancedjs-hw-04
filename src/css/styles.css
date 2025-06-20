@@ -113,3 +113,17 @@ form button[type="submit"]:hover {
   margin-top: 24px;
   display: none;
 }
+
+.loader {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #4e75ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 24px auto 0 auto;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
