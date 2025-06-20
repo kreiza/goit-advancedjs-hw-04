@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pixabay Gallery</title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css">
   <script type="module" crossorigin src="/goit-advancedjs-hw-04/index.js"></script>
-  <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-B6Fq-XDb.js">
-  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-DkczhqSJ.css">
-  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-By4KHy1X.css">
+  <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CigWwf1c.js">
+  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/vendor-CWKLx11g.css">
+  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-04/assets/index-BSW0OtmR.css">
 </head>
 <body>
-<form autocomplete="off">
+<form class="form" autocomplete="off">
   <input
     type="text"
     name="search"
@@ -25,10 +26,12 @@
 <ul class="gallery"></ul>
 
 <button class="load-more" style="display: none;">Load more</button>
+<span class="loader" style="display: none;"></span>
 <p class="end-message" style="display: none; color: #e74c3c;">
   We're sorry, but you've reached the end of search results.
 </p>
 
+<script src="https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js"></script>
 <!-- Головний JS-модуль -->
 </body>
 </html>
